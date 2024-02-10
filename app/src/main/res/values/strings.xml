@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Jitendra</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Biography</string>
+    <string name="second_fragment_label">Hobbies</string>
+    <string name="third_fragment_label">Contacts</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="contact">Contact</string>
+    <string name="previous">Previous</string>
+
+    <string name="jitendra_intro">
+        Hello, I am Jitendra Rawat, a dedicated computer science graduate student at Pace
+        University Seidenberg School of Computer Science and Information Systems in New York
+        City. Originally hailing from the vibrant landscape of India, I bring a global perspective
+        to my academic pursuits.\n\n
+
+        I am currently immersed in pursuing a Master of Science (MS) in Computer Science with a
+        specialization in Software Development at Pace University. My academic journey here has been
+        marked by a strong commitment to excellence.\n\n
+
+        Prior to my current academic endeavor, I earned my Bachelor of Technology (B.Tech) degree
+        from DIT University in Dehradun, India, where I graduated in July 2020 with a CGPA of 6.69.
+        This foundational education equipped me with a solid understanding of computer science fundamentals.
+
+    </string>
+
+    <string name="jitendra_hobbies">
+       I have a passion for exploring new destinations and cultures, making traveling a cherished hobby
+        that broadens my perspective. In my leisure time, I enjoy watching informative and entertaining
+        content on YouTube, and I find joy in creating lasting memories by spending quality time with
+        friends and family.
+
+    </string>
+</resources>
