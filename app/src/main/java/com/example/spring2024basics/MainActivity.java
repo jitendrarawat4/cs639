@@ -23,6 +23,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
 
     public static final String MAIN_ACTIVITY = "MainActivity";
+
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, getResources().getString(R.string.email), Snackbar.LENGTH_LONG)
                         .setAnchorView(R.id.fab)
                         .setAction("Action", null).show();
             }

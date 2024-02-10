@@ -20,14 +20,14 @@
             android:text="@string/hobbies"
             app:layout_constraintBottom_toTopOf="@+id/textview_first"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintEnd_toStartOf="@+id/button_contact"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.5" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/contact"

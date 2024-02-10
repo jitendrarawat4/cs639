@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.example.spring2024basics.databinding.FragmentSecondBinding;
+import com.example.spring2024basics.databinding.FragmentThirdBinding;
 
 public class ThirdFragment extends Fragment {
 
-    private FragmentSecondBinding binding;
+    private FragmentThirdBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class ThirdFragment extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
+        binding = FragmentThirdBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
@@ -29,7 +29,7 @@ public class ThirdFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
+        binding.buttonContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 NavHostFragment.findNavController(ThirdFragment.this)
