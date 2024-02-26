@@ -29,21 +29,7 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-//        Log.i("FIRSTFRAGMENT","In OnCreateCreated");
-//
-//        AsyncTaskImageDownloader imgDownloader = new AsyncTaskImageDownloader(this.getActivity());
-//        imgDownloader.execute("https://picsum.photos/seed/picsum/200/300");
-//
-//        LongOperation lop = new LongOperation();
-//        lop.execute("Hello");
-//        try {
-//            Integer myResult = lop.get();
-//        }
-//        catch(Exception e){
-//            e.printStackTrace();
-//        }
-
+        
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
