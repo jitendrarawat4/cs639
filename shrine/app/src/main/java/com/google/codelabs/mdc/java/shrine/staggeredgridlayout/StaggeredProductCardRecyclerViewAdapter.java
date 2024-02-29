@@ -19,8 +19,8 @@ import androidx.recyclerview.widget.RecyclerView;
  */
 public class StaggeredProductCardRecyclerViewAdapter extends RecyclerView.Adapter<StaggeredProductCardViewHolder> {
 
-    private List<ProductEntry> productList;
-    private ImageRequester imageRequester;
+    private final List<ProductEntry> productList;
+    private final ImageRequester imageRequester;
 
     public StaggeredProductCardRecyclerViewAdapter(List<ProductEntry> productList) {
         this.productList = productList;

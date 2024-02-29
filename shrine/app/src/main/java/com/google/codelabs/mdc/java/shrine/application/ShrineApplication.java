@@ -17,7 +17,7 @@ public class ShrineApplication extends Application {
     }
 
     public void setAppContext(Context mAppContext) {
-        this.appContext = mAppContext;
+        appContext = mAppContext;
     }
 
     @Override
