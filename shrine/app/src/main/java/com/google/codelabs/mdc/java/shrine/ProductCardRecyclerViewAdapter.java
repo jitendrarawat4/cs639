@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.RecyclerView;
  */
 public class ProductCardRecyclerViewAdapter extends RecyclerView.Adapter<ProductCardViewHolder> {
 
-    private List<ProductEntry> productList;
-    private ImageRequester imageRequester;
+    private final List<ProductEntry> productList;
+    private final ImageRequester imageRequester;
 
     ProductCardRecyclerViewAdapter(List<ProductEntry> productList) {
         this.productList = productList;
