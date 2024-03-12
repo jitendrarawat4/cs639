@@ -7,7 +7,6 @@ package com.example.kotlingettingstarted
 
 import java.util.Random
 
-
 fun main(args: Array<String>) {
     println("Hello, world!")
 
