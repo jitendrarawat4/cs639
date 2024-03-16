@@ -6,35 +6,31 @@ Welcome to the CS 639 repository! This repository contains all the projects and 
 Overview
 
 ## MyFirstApp
-The "MyFirstApp" project offers seamless navigation to different fragments, providing a structured and intuitive user experience.
+Experience seamless navigation across different fragments for a structured user journey.
 
 ## AsyncTaskImage
-"AsyncTaskImage" demonstrates efficient handling of buttons and images, showcasing best practices for user interaction and media management.
+Efficiently handle buttons and images, demonstrating best practices for user interaction and media management.
 
 ## Shrine-MDC-101-102
-The "Shrine" project is a comprehensive course that immerses you in the world of Material Design Components. It offers hands-on experience in designing and implementing user interfaces by adhering to Google's Material Design guidelines. Explore the beauty of intuitive and visually appealing UI elements through this engaging course.
+Immerse yourself in Material Design Components with the comprehensive "Shrine" project, offering hands-on experience in UI design following Google's Material Design guidelines.
 
 ## Shrine-MDC-103
-This is a project or course focusing on Material Design Components, providing hands-on experience with designing and implementing user interfaces using Google's Material Design guidelines.
-
-In this I customized the color, elevation, and typography, of Material Components (MDC) to style the Shrine app.
+Customize Material Design Components to stylize the Shrine app, exploring intuitive UI elements using Google's Material Design guidelines.
 
 ## Shrine-MDC-104
-This is a project or course focusing on Material Design Components, providing hands-on experience with designing and implementing user interfaces using Google's Material Design guidelines.
+Further explore Material Design Components to enhance UI implementation using Google's Material Design guidelines.
 
 ## KotlinGettingStarted
-Dive into Kotlin programming with our Android Studio-based starter app.
-Explore the fundamentals and kickstart the journey into Android app development.
+Embark on your Kotlin journey with our Android Studio-based starter app, diving into Android app development fundamentals.
 
 ## Kotlin-L1-&-L2
-Kotlin Lesson 1 and Lesson 2 files from codelab
+Access Kotlin Lesson 1 and Lesson 2 files from codelab sessions.
 
 ## Kotlin-L3
-Kotlin Lesson 3 files from codelab.
+Explore Kotlin Lesson 3 files from codelab sessions.
 
 ## HappyBirthday
-Celebrate with HappyBirthday, an Android Studio-built app for sending gift card wishes to friends!
-Create memorable moments with customizable gift cards and spread joy to your loved ones effortlessly. 
+Spread joy with HappyBirthday, an Android Studio-built app for sending customizable gift card wishes to friends effortlessly (Kotlin-L4).
 
 ## MidtermJitendraRawat
-This Android app allows users to convert volume measurements from liters (L) to gallons (gal) conveniently. Simply input the volume in liters, and the app will instantly display the equivalent value in gallons.
+Convert volume measurements from liters to gallons conveniently with this Android app, providing instant conversions for user convenience.
