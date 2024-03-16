@@ -18,6 +18,7 @@ public class FirstFragment extends Fragment {
 
     private FragmentFirstBinding binding;
 
+    private MainActivity activity;
     EditText editTextLiters;
     Button buttonConvert;
     TextView textViewGallons;

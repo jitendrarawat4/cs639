@@ -14,7 +14,6 @@ import com.example.midtermjitendrarawat.databinding.FragmentSecondBinding;
 public class SecondFragment extends Fragment {
 
     private FragmentSecondBinding binding;
-
     private MainActivity activity;
 
     @Override
@@ -22,29 +21,36 @@ public class SecondFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
-
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
-     //   activity.convertLitersToGallons();
         super.onViewCreated(view, savedInstanceState);
+        activity = (MainActivity) requireActivity();
+
+        binding.buttonShowResult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Call the method to convert liters to gallons from MainActivity
+                activity.convertLitersToGallons();
+            }
+        });
 
         binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Navigate back to FirstFragment
                 NavHostFragment.findNavController(SecondFragment.this)
                         .navigate(R.id.action_SecondFragment_to_FirstFragment);
             }
         });
     }
 
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
     }
-
 }
