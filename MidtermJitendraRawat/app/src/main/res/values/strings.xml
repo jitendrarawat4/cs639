@@ -4,8 +4,8 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">LTS to Gallon Converter</string>
     <string name="second_fragment_label">LTS to Gallon Converter</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="next">Convert</string>
+    <string name="previous">Go Back</string>
 
     <string name="lorem_ipsum">
        Enter in Liters to Convert into Gallons
